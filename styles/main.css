@@ -1,0 +1,47 @@
+body {
+  background-color: #E1F5FE;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 1.4;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+p {
+  line-height: 1.4;
+}
+
+#narration {
+  padding: 1rem 2rem;
+  background: #90CAF9; /* b4e3ea or 81D4FA or B3E5FC */
+}
+
+.butt {
+  padding: 1rem;
+  margin: .5rem 0;
+  background: #333;
+  color: #fff;
+}
+
+.butt:hover {
+  background: #01579B; /* 069 */
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.rotate-right {
+  transform: rotate(5deg);
+}
+
+.rotate-left {
+  transform: rotate(-5deg);
+}
